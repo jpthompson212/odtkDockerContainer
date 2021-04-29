@@ -2,6 +2,8 @@
 
  > Unofficial ODTK Engine Runtime Container
 
+This requires that you download the ODTK runtime from [AGI Suppoort](https://support.agi.com/downloads/?t=4) and obtain a license by contacting [AGI Support](mailto:support@agi.com).  Once you have obtained these place the ODTK Runtime zip file and the license file at the root directory of the project.
+
 ## Build the image ##
 
 If you would like to build the image yourself
