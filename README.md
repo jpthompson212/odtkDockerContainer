@@ -27,7 +27,7 @@ To run the container
 ### Example Run Command ###
 
 ```docker
-docker run --publish 9876:9876 -v C:\temp\training-STK-DEMO-200708.lic:/app/LicenseData/odtkLicense.lic --name odtkruntime jthompson/odtkruntime
+docker run --publish 9876:9876 -v <local-license-path>:/app/LicenseData/odtkLicense.lic --name odtkruntime jthompson/odtkruntime
 ```
 
 ## Testing ##
