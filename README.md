@@ -38,6 +38,8 @@ Now that the container is running it can be tested utilizing the cross platfrom 
 
 ### Example using python ###
 
+A full python script can be found at [odtk_automation.py](odtk_automation.py)
+
 ```python
 from odtk import Client
 
