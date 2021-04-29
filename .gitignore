@@ -1,3 +1,10 @@
+# Do not commit the odtk install
 ODTK*Linux.zip
 ODTK*Linux/*
-*.py
+
+# Do not commit the odtk cross platform api or license
+odtk.py
+*.lic
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
