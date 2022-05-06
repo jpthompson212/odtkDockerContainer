@@ -2,9 +2,8 @@
 ODTKEngineLinux*.zip
 ODTKEngineLinux*/*
 
-# odtk cross platform api or license
+# odtk cross platform api
 odtk.py
-*.lic
 
 # Byte-compiled
 __pycache__/
