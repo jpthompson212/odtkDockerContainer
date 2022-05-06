@@ -4,7 +4,7 @@
 
  > If you are still using the AGI License server and ODTK <=7.2.1 please switch to the [7.2.0 branch](https://github.com/jpthompson212/odtkDockerContainer/tree/7.2.0)
 
-This requires that you download the ODTK runtime from [AGI Suppoort](https://support.agi.com/downloads/?t=4) and obtain a license by contacting [AGI Support](mailto:support@agi.com).
+This requires that you download the ODTK runtime from [AGI Support](https://support.agi.com/downloads/?t=4) and obtain a license by contacting [AGI Support](mailto:support@agi.com).
 
 ## Build the image ##
 
