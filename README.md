@@ -4,7 +4,7 @@
 
  > Branch maintained for ODTK releases (<7.2.1) using the legacy AGI license server
 
-This requires that you download the ODTK engine from [AGI Suppoort](https://support.agi.com/downloads/?t=4) and obtain a license by contacting [AGI Support](mailto:support@agi.com).
+This requires that you download the ODTK engine from [AGI Support](https://support.agi.com/downloads/?t=4) and obtain a license by contacting [AGI Support](mailto:support@agi.com).
 
 ## Build the image ##
 
