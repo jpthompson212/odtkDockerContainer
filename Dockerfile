@@ -1,5 +1,5 @@
 FROM centos:centos7
-LABEL Maintainer="jthompson@agi.com"
+LABEL Maintainer="john.thompson@ansys.com"
 
 ARG ODTK_VERSION=7.2.1
 
