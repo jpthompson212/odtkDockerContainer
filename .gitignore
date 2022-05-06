@@ -1,6 +1,6 @@
 # odtk install
-ODTK*Linux.zip
-ODTK*Linux/*
+ODTKEngineLinux*.zip
+ODTKEngineLinux*/*
 
 # odtk cross platform api or license
 odtk.py
