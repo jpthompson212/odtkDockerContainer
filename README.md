@@ -2,11 +2,13 @@
 
  > Unofficial ODTK Engine Runtime Container
 
-This requires that you download the ODTK runtime from [AGI Suppoort](https://support.agi.com/downloads/?t=4) and obtain a license by contacting [AGI Support](mailto:support@agi.com).  Once you have obtained these place the ODTK Runtime zip file and the license file at the root directory of the project.
+This requires that you download the ODTK runtime from [AGI Suppoort](https://support.agi.com/downloads/?t=4) and obtain a license by contacting [AGI Support](mailto:support@agi.com).
 
 ## Build the image ##
 
-If you would like to build the image yourself
+First you will want to alter the license file to contain the information pointing to your license server.
+
+You can then place the ODTK Engine zip file at the root level. For ODTK 7.4.0 the file in named `ODTKEngineLinux_v7.4.0.zip`.
 
 ### Example Build Command ###
 
@@ -21,18 +23,17 @@ To run the container
 | **Flag** | **Value** |
 | :----- | :----- |
 | -p, --publish | `<localport>:9876` |
-| -v, --volume | `C:\path\to\local\license\*.lic:/app/LicenseData/odtkLicense.lic` |
 | --name | `desired container name` |
 
 ### Example Run Command ###
 
 ```docker
-docker run --publish 9876:9876 -v <local-license-path>:/app/LicenseData/odtkLicense.lic --name odtkruntime jthompson/odtkruntime
+docker run --publish 9876:9876 --name odtkruntime jthompson/odtkruntime
 ```
 
 ## Testing ##
 
-Now that the container is running it can be tested utilizing the cross platfrom api
+Now that the container is running it can be tested utilizing the cross platform api
 
 > [ODTK Scripting Guide](https://help.agi.com/ODTK/index.htm#od/ODTKScriptingGuide.htm#CrossPlatformAPI)
 
