@@ -1,0 +1,3 @@
+SERVER <HostName or IPAddress> ANY
+DAEMON STKD
+USE_SERVER
