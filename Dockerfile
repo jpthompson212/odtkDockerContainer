@@ -1,7 +1,7 @@
 FROM centos:centos7
 LABEL Maintainer="jthompson@agi.com"
 
-ARG ODTK_VERSION=7.4.0
+ARG ODTK_VERSION=7.2.1
 
 RUN mkdir -p /tmp/odtk_install/
 ADD ODTKEngine*.zip /tmp/odtk_install/
@@ -33,7 +33,7 @@ RUN ln -fs /usr/bin/python3.6 /usr/bin/python
 # Set the working directory
 WORKDIR /app/
 
-COPY License/ansyslmd.ini /app/odtk/odtk${ODTK_VERSION}/shared_files/licensing
+COPY License/*.lic /app/odtk/odtk${ODTK_VERSION}/bin/LicenseData/
 
 ENV LD_LIBRARY_PATH=/app/odtk/odtk${ODTK_VERSION}/bin \
     ODTK_INSTALL_DIR=/app/odtk/odtk${ODTK_VERSION} \
